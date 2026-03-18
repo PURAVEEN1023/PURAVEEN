@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6;
+    font-family: Georgia, serif;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: white;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: white;
+    padding: 15px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    color: #79d8c6;
+}
+
+.navbar a.active {
+    color: #79d8c6;
+}
+
+/* Background image section */
+.hero {
+    background-image: url("FK4.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+
+/* Dark transparent layer on image */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.35);
+    min-height: 500px;
+    color: white;
+    padding: 20px;
+}
+
+.overlay h1 {
+    margin-top: 0;
+    padding-top: 15px;
+    font-size: 26px;
+}
+
+.overlay h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.line {
+    border: 1px solid white;
+    margin: 15px 0;
+}
+
+/* Facts and figures */
+.facts {
+    margin-top: 20px;
+}
+
+.fact-box {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.fact-box h3 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.fact-box p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Green bottom section */
+.program-section {
+    background-color: #79d8c6;
+    padding: 20px;
+}
+
+.program-section h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.program-section ul {
+    font-size: 14px;
+}
+
+.program-section a {
+    color: #003366;
+}
+
+.program-section a:hover {
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+    background-color: white;
+}
