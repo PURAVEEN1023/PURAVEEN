@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal Details Form">
+    <meta name="keywords" content="HTML, Form">
+    <meta name="author" content="Puraveen">
+    <title>LAB 1 EXERCISE Question 3</title>
+</head>
+
+<body>
+
+    <br><br>
+
+    <form>
+        <table border="1" width="90%" align="center" cellspacing="0" cellpadding="20" bgcolor="white">
+            <tr>
+                <td>
+                    
+                    <center>
+                        <h1>Your Personal Details</h1>
+                    </center>
+
+                    <table width="90%" align="center" cellpadding="5">
+                        
+                        <tr>
+                            <td width="25%"><b>Your name:</b></td>
+                            <td>
+                                <input type="text" name="fullname" size="80">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Student number:</b></td>
+                            <td>
+                                <input type="text" name="studentnumber" size="40">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Program:</b></td>
+                            <td>
+                                <select name="program" style="width: 560px;">
+                                    <option>Bachelor of Computer Science (Software Engineering) with Honours</option>
+                                    <option>Diploma in Computer Science</option>
+                                    <option>Bachelor of Computer Science (Computer Systems & Networking) with Honours</option>
+                                    <option>Bachelor of Computer Science (Graphics & Multimedia Technology) with Honours</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Gender:</b></td>
+                            <td>
+                                <input type="radio" name="gender" value="Male"> Male
+                                <input type="radio" name="gender" value="Female"> Female
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Hobby:</b></td>
+                            <td>
+                                <input type="checkbox" name="hobby1" value="Reading"> Reading
+                                <input type="checkbox" name="hobby2" value="Outdoor Activities"> Outdoor Activities
+                                <input type="checkbox" name="hobby3" value="Watching TV"> Watching TV
+                                <input type="checkbox" name="hobby4" value="Sleeping"> Sleeping
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td valign="top"><b>Comments:</b></td>
+                            <td>
+                                <textarea name="comments" rows="3" cols="35"></textarea>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" value="Submit">
+                                <input type="reset" value="Reset">
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
