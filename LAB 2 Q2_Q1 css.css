@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 82%;
+    margin: 20px auto;
+}
+
+/* Header picture */
+.header-image {
+    background-image: url("bg-header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 75px;
+    margin-bottom: 20px;
+}
+
+/* h1 styling only (what question asks) */
+h1 {
+    color: green;
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Original text look */
+p {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    line-height: 1.3;
+    margin-bottom: 18px;
+}
+
+/* Footer picture */
+.footer-image {
+    background-image: url("bg-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+}
